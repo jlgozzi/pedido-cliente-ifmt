@@ -6,7 +6,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 public class ItemPedidoDTO {
 
     private int codigo;
-    private PreparoProdutoDTO preparoProduto;
+    private ProdutoDTO produto;
     private int quantidadePorcao;
     private String link;
 
@@ -18,12 +18,12 @@ public class ItemPedidoDTO {
         this.codigo = codigo;
     }
 
-    public PreparoProdutoDTO getPreparoProduto() {
-        return preparoProduto;
+    public ProdutoDTO getProduto() {
+        return produto;
     }
 
-    public void setPreparoProduto(PreparoProdutoDTO preparoProduto) {
-        this.preparoProduto = preparoProduto;
+    public void setProduto(ProdutoDTO produto) {
+        this.produto = produto;
     }
 
     public int getQuantidadePorcao() {
